@@ -1,0 +1,44 @@
+* {
+    background-color: magenta;
+    font-family: verdana, serif;
+}
+
+body {
+    margin: 0;
+    width: 1200px;
+    max-width: 100vw;
+    display: flex;
+}
+
+.left-menu {
+    width: 200px;
+    height: 1000px;
+    max-height: 100vh;
+    border-right: 5px solid black;
+}
+
+.main-content {
+    padding-top: 60px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.twice-list {
+    padding-top: 60px;
+}
+
+.twice-list-item {
+    padding-bottom: 40px;
+}
+
+.main-title {
+    text-align: center;
+}
+
+.description { 
+    width: 500px;
+    height: 300px;
+    overflow-wrap: anywhere;
+    padding-left: 300px;
+    margin-top: 50px;
+}
